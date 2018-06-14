@@ -1,0 +1,92 @@
+.loginPage {
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-right: 30%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.headerArea {
+  grid-area: h;
+}
+
+body {
+  background-color: #E8EAF6;
+}
+
+.bodyContainer {
+  height: 100%;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+  grid-template-rows: 100px auto auto;
+  grid-template-areas: "h h h h h h" "s c c c c c" "f f f f f f";
+}
+
+.sideBar {
+  justify-content: left;
+  grid-area: s;
+  margin: 10px;
+}
+
+.sideBarElement {
+  margin: 10px;
+}
+
+.sideBarHeader {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contentArea {
+  grid-area: c;
+  padding: 10px;
+  justify-content: left;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.Margin-bottom-8px {
+  margin-bottom: 8px;
+}
+
+.flex--alignEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.margin5px {
+  margin: 5px;
+}
+
+.Element_label {
+  color: #656565;
+  font-size: 18px;
+}
+
+.textAreaWrap {
+  width: 98%;
+  border: 1px solid #e8eaf6;
+}
+
+.nameArea {
+  display: flex;
+  width: 100%;
+}
+
+.width12P {
+  width: 12%;
+}
+
+.pd-l-10 {
+  padding-left: 10px;
+}
+
+.active {
+  font-weight: bold;
+}

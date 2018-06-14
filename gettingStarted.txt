@@ -1,0 +1,13 @@
+1. enter your mail id and password at /roleBasedWebApp/server/config.js to send mails for new account created.
+
+2. enable Less secure apps access if you are using gmail link: https://myaccount.google.com/lesssecureapps. 
+
+3. install node modules by running  "npm install".
+
+4. create admin user by running "npm run create:adminuser" command.
+
+5. note down the user name and password as mentioned on screen. ( if you forget, you can get it at /supportscripts/addAdminEmployee.js).
+
+6. start application by running "npm start".
+
+7. the app runs in http://localhost:3002.
